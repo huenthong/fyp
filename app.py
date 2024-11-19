@@ -1,6 +1,9 @@
 import streamlit as st
 import openai
 
+# Replace with your actual OpenAI API key
+openai.api_key = st.secrets["mykey"]
+
 # Define product categories, features, benefits, and additional criteria
 product_categories = [
     "Smartphones",
